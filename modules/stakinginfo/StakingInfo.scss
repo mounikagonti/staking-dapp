@@ -1,0 +1,82 @@
+.stakingInfo_wrapper {
+  .container {
+    max-width: 1320px;
+    margin: auto;
+    .stakingInfo_container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.19);
+      margin-bottom: 20px;
+      .tokenOne {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: $brandOne;
+      }
+      .earned_token_wrapper {
+        .earned_tokens {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+          color: $brandOne;
+        }
+        .earned_token_value {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          color: $brandSeven;
+        }
+      }
+      .total_staked_wrapper {
+        .total_staked {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+          color: $brandOne;
+        }
+        .earned_token_value {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          color: $brandSeven;
+        }
+      }
+      .apy_wrapper {
+        .apy {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+          color: $brandOne;
+        }
+        .apy_value {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          color: $brandOne;
+        }
+      }
+      .btn_wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        // background-color: red;
+      }
+      .claim_btn_wrapper {
+        @include displayCenter(center, center);
+      }
+    }
+  }
+}

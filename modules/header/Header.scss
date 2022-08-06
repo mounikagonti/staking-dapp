@@ -1,0 +1,42 @@
+.header_wrapper {
+  background-color: $brandOne;
+  .container {
+    max-width: 1320px;
+    margin: auto;
+    .header_container {
+      @include displayCenter(center, space-between);
+      .header_left {
+        display: flex;
+        .header_image_container {
+          position: relative;
+          width: 71px;
+          height: 71px;
+        }
+        .header_left_heading {
+          font-style: normal;
+          font-weight: 800;
+          font-size: 25px;
+          line-height: 30px;
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          color: $brandSix;
+          .header_left_headingOne {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #ffffff;
+          }
+        }
+      }
+      .header_right {
+        background: transparent;
+      }
+    }
+  }
+}

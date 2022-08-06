@@ -1,0 +1,40 @@
+.main_wrapper {
+  background: url("/images/bg-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .container {
+    max-width: 1320px;
+    margin: auto;
+    .main_container {
+      padding: 0 0 20px 0;
+      .main_top {
+        padding-bottom: 20px !important;
+        .main_top_heading {
+          font-weight: 600;
+          font-size: 50px;
+          line-height: 61px;
+          display: flex;
+          align-items: center;
+          padding-top: 70px;
+          color: $brandSix;
+        }
+        .main_top_subHeading {
+          font-weight: 400;
+          font-size: 26px;
+          line-height: 32px;
+          display: flex;
+          align-items: center;
+          color: $brandSix;
+        }
+      }
+      .main_bottom {
+        width: 1199px;
+        background-color: $brandSix;
+        padding: 20px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+    }
+  }
+}

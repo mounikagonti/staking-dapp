@@ -1,0 +1,35 @@
+$fontFamilyOne: "Montserrat", sans-serif;
+$brand_color_primary: linear-gradient(#343b64, #1f233c);
+$brand_color_secondary: linear-gradient(#21b2fe, #2174fe);
+$primary: #ffffff;
+
+// Brand colors
+$brandOne: #294888;
+$brandTwo: #3f8dbd;
+$brandThree: #b1b1b1;
+$brandFour: #fec710;
+$brandFive: #e6e6e6;
+$brandSix: #ffff;
+$brandSeven:rgba(41, 72, 136, 0.4);
+
+//@mixins
+
+@mixin displayCenter($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+// responsive breakpoints
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+@mixin mQ($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
+

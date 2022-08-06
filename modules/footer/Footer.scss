@@ -1,0 +1,19 @@
+.footer_wrapper {
+  background-color: $brandOne;
+  height: 150px;
+  .container {
+    max-width: 1320px;
+    margin: auto;
+    .footer_container {
+      display: flex;
+      gap: 15px;
+      margin-left: 200px;
+      //   margin-top: 50px;
+      .social_icon {
+        color: $brandSix;
+        margin-top: 80px;
+        font-size: 20px;
+      }
+    }
+  }
+}

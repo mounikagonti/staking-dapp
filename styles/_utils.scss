@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: $fontFamilyOne;
+  font-weight: 400;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+.stake_btn {
+  display: inline-block;
+  border: 0;
+  border-radius: 5px;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 180px;
+  text-decoration: none;
+  background: $brand_color_primary;
+  color: $brand_color_secondary;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    color: $brand_color_primary;
+    background: $brand_color_secondary;
+  }
+}
+
+.stake_btn {
+  padding: 15px 0px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 17px;
+  text-align: center;
+  background: $brandTwo;
+  border-radius: 15px 5px;
+  color: $brandSix;
+  margin-bottom: 10px;
+}
+.disabled {
+  background: #b1b1b1 !important;
+}
